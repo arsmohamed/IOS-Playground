@@ -25,3 +25,12 @@ confirmationCodes.remove("LL3451")
 allPhoneNumbers.remove("000-345-3443")
 print("\(allPhoneNumbers.count) \(confirmationCodes.count)")
 
+
+enum PastaTypes: Int {
+    case spaghetti
+    case penne
+    case ravioli
+    case rigatoni
+}
+
+print(PastaTypes.penne.rawValue)
