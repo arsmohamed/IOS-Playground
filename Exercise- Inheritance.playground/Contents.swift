@@ -15,8 +15,8 @@ class Dish {
 
 class AppetizerDish : Dish {
     override func printInfo() {
-        print("Appetizer")
-        super.printInfo()
+        print("Appetizer") // this happen
+        super.printInfo() // then this call the orignal class
     }
 }
 //that means that there is no other class can inherit from it
